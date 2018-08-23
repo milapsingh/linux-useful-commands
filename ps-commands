@@ -1,0 +1,10 @@
+If you want to display child process of every parent process then use <ps> command with options as mentioned:
+ -> ps -o pid,uname,comm -C <process_name>
+    Explanation : -o used for user defined output format
+                  -C used for to select the process whise executable name is given at cmdlist.
+    For example you want to see nginx process and all its child process use:
+    ps -o pid,uname,comm -C nginx
+    Output:   PID USER     COMMAND
+              1107 root     nginx
+              1108 www-data nginx
+              1109 www-data nginx
