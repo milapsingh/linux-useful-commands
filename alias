@@ -1,0 +1,14 @@
+As we know there are lots of commands in linux system. Sometime we need some commands repeatedly, so we can create our own command by ALIAS command.
+Example: If we want to execute commands below many times so we can make an alias.
+            1. cd /usr;
+            2. ls
+              Output: bin  games  include  lib  local  sbin  share  src
+            3. cd ~
+              Return back to home.
+            We used 3 command for one work now we can make single command which will perform all the commands at once.
+            -> alias my='cd /usr; ls; cd~'
+            Now run command
+               $:  my
+               Output: bin  games  include  lib  local  sbin  share  src
+                      and return back to home.
+But by using this command these alias will destroy when you close your terminal.

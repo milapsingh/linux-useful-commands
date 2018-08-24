@@ -1,0 +1,11 @@
+Which: it is used to locate executable program installed on the system.
+    which <program_name>
+  Example:
+          which nginx
+          Output: /usr/sbin/nginx
+
+Whatis: It is used to display the name and short description of command.
+    Whatis <command_name>
+    Example:
+          whatis ps
+          Output: ps (1)  - report a snapshot of the current processes.
